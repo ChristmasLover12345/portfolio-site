@@ -1,0 +1,1 @@
+This is supposed to be the first rendition of my portfolio site, containing all of the relevant projects i did during my time at codestack academy
