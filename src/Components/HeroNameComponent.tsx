@@ -8,7 +8,7 @@ const HeroNameComponent = () => {
 
    
 
-    <div className='w-full h-[400px] bg-gradient-to-b from-sky-700 to-sky-950 flex flex-col justify-center items-center text-white p-4 '>
+    <div className='w-full h-[400px] bg-gradient-to-b from-sky-700 to-blue-950 flex flex-col justify-center items-center text-white p-4 '>
 
  
       <motion.div 
