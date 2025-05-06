@@ -7,7 +7,7 @@ import HeroNameComponent from "@/Components/HeroNameComponent";
 export default function Home() {
   return (
 
-    <div className=" relative min-h-screen min-w-screen  flex flex-col overflow-hidden">
+  <div className=" relative min-h-screen min-w-screen  flex flex-col overflow-hidden">
 
 <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#1e3a8a]">
     <div className="relative w-full h-full overflow-hidden">
