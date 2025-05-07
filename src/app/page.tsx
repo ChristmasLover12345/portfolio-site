@@ -1,3 +1,4 @@
+import ContactBubblesComponent from "@/Components/ContactBubblesComponent";
 import HeroNameComponent from "@/Components/HeroNameComponent";
 
 
@@ -9,7 +10,11 @@ export default function Home() {
 
   <div className=" relative min-h-screen min-w-screen  flex flex-col overflow-hidden">
 
-<div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#1e3a8a]">
+    <ContactBubblesComponent />
+
+    {/* 1e3a8a   1e293b */}
+
+<div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#1e3a8a] via-[#1e293b] to-[#0f172a]">
     <div className="relative w-full h-full overflow-hidden">
       {[...Array(25)].map((_, i) => (
         <span key={i} className="bubble" style={{
