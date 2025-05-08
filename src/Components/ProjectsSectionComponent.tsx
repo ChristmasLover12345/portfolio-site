@@ -11,7 +11,7 @@ const projects = [
     status: 'In Progress',
     description:
       'Team project building a full-stack web app where motorcyclists can discover and share scenic routes. I’m primarily responsible for the backend, including the C#/.NET REST API, designing and implementing the SQL database schema, and building backend services for user and route management.',
-    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'C#', 'SQL'],
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'C#', 'SQL', 'Azure'],
     github: '',
     live: '',
   },
@@ -38,17 +38,17 @@ const projects = [
     status: 'Completed',
     description:
       'React app that uses the PokeAPI to fetch and display Pokémon names, locations, types, evolutions, moves, and abilities.',
-    tech: ['React', 'JavaScript', 'Tailwind CSS'],
-    github: '',
+    tech: ['React', 'JavaScript', 'Tailwind CSS', 'Azure'],
+    github: 'https://github.com/ChristmasLover12345/herediaj-pokemon-api-rebuilt',
     live: 'https://herediaj-pokemon-api-rebuilt.vercel.app',
   },
 ]
 
 const ProjectsSectionComponent = () => {
   return (
-    <section className="w-full py-16 px-4 text-white">
+    <section className="w-[98%] mx-auto py-16 px-4 text-white">
       <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
-      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
         {projects.map((project, idx) => (
           <motion.div
             key={idx}
