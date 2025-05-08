@@ -49,7 +49,7 @@ const AboutMeComponent = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="w-full bg-white/5 hover:bg-white/20 backdrop-blur-md rounded-2xl shadow-lg p-8 innerGlow text-white text-center"
+        className="w-[95%] sm:w-[90%] px-4 mx-auto bg-white/5 hover:bg-white/20 backdrop-blur-md rounded-2xl shadow-lg p-8 innerGlow text-white text-center"
       >
         <h1 className="text-3xl font-bold mb-4">About Me</h1>
         <p className="text-lg text-white/80 leading-relaxed">
