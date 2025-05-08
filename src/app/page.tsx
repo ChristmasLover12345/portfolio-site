@@ -1,6 +1,7 @@
 import AboutMeComponent from "@/Components/AboutMeComponent";
 import ContactBubblesComponent from "@/Components/ContactBubblesComponent";
 import HeroNameComponent from "@/Components/HeroNameComponent";
+import ProjectsSectionComponent from "@/Components/ProjectsSectionComponent";
 
 
 
@@ -34,7 +35,7 @@ export default function Home() {
   
       <AboutMeComponent />
       
-    
+    <ProjectsSectionComponent />
 
     </div>
 
