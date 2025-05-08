@@ -17,8 +17,8 @@ const [showResume , setShowResume] = useState<boolean>(false)
   return (
     <div className='w-full h-full'>
 
-        <div onClick={() => setShowResume(false)} className={showResume ? 'absolute inset-0 z-50 w-screen h-screen flex flex-col justify-center items-center bg-black/50 ' : 'hidden'}>
-            <div className='w-[50%] h-[80%] bg-white rounded-2xl p-2 flex flex-col'>
+        <div onClick={() => setShowResume(false)} className={showResume ? 'fixed inset-0 z-50 w-screen h-screen flex flex-col justify-center items-center bg-black/50 ' : 'hidden'}>
+            <div className='w-[90%] sm:w-[50%] h-[80%] bg-white rounded-2xl p-2 flex flex-col'>
 
                 <iframe src='/JuanHeredia_Resume.pdf' className='w-full rounded-2xl h-full border-2' ></iframe>              
 

@@ -1,3 +1,4 @@
+import AboutMeComponent from "@/Components/AboutMeComponent";
 import ContactBubblesComponent from "@/Components/ContactBubblesComponent";
 import HeroNameComponent from "@/Components/HeroNameComponent";
 
@@ -8,7 +9,7 @@ import HeroNameComponent from "@/Components/HeroNameComponent";
 export default function Home() {
   return (
 
-  <div className=" relative min-h-screen min-w-screen  flex flex-col overflow-hidden">
+  <div className=" relative min-h-screen min-w-screen flex flex-col overflow-x-hidden">
 
     <ContactBubblesComponent />
 
@@ -31,6 +32,7 @@ export default function Home() {
     <HeroNameComponent />
 
   
+      <AboutMeComponent />
       
     
 
