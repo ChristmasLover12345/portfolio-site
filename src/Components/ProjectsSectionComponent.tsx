@@ -1,48 +1,48 @@
+"use client";
 
-'use client'
-
-import React from 'react'
-import { motion } from 'framer-motion'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import React from "react";
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: 'RIDE – Social Platform for Motorcyclists',
-    status: 'In Progress',
+    title: "RIDE – Social Platform for Motorcyclists",
+    status: "In Progress",
     description:
-      'Team project building a full-stack web app where motorcyclists can discover and share scenic routes. I’m primarily responsible for the backend, including the C#/.NET REST API, designing and implementing the SQL database schema, and building backend services for user and route management.',
-    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'C#', 'SQL', 'Azure'],
-    github: '',
-    live: '',
+      "Team project building a full-stack web app where motorcyclists can discover and share scenic routes. I’m primarily responsible for the backend, including the C#/.NET REST API, designing and implementing the SQL database schema, and building backend services for user and route management.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "C#", "SQL", "Azure"],
+    github: "https://github.com/ChristmasLover12345/LoginAPI",
+    live: "",
   },
   {
-    title: 'Quiz Web App – User-Generated Quiz Platform',
-    status: 'In Progress',
+    title: "Quiz Web App – User-Generated Quiz Platform",
+    status: "In Progress",
     description:
-      'Users can register, take, and create quizzes. Frontend in Next.js/TypeScript. Backend in C# with REST APIs. Robust SQL structure supports quizzes and user data.',
-    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'C#', 'SQL', 'Azure'],
-    github: '',
-    live: '',
+      "Users can register, take, and create quizzes. Frontend in Next.js/TypeScript. Backend in C# with REST APIs. Robust SQL structure supports quizzes and user data.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "C#", "SQL", "Azure"],
+    github: "",
+    live: "",
   },
   {
-    title: 'Personal Portfolio Website',
-    status: 'Live',
+    title: "Personal Portfolio Website",
+    status: "You are here",
     description:
-      'This portfolio website built with Next.js, TypeScript, and Tailwind CSS. Fully responsive, animated with Framer Motion, and includes dynamic components.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    github: '',
-    live: '',
+      "This portfolio website built with Next.js, TypeScript, and Tailwind CSS. Fully responsive, animated with Framer Motion, and includes dynamic components.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/ChristmasLover12345/portfolio-site",
+    live: "",
   },
   {
-    title: 'Pokémon API Explorer',
-    status: 'Completed',
+    title: "Pokémon API Explorer",
+    status: "Completed",
     description:
-      'React app that uses the PokeAPI to fetch and display Pokémon names, locations, types, evolutions, moves, and abilities.',
-    tech: ['React', 'JavaScript', 'Tailwind CSS', 'Azure'],
-    github: 'https://github.com/ChristmasLover12345/herediaj-pokemon-api-rebuilt',
-    live: 'https://herediaj-pokemon-api-rebuilt.vercel.app',
+      "React app that uses the PokeAPI to fetch and display Pokémon names, locations, types, evolutions, moves, and abilities.",
+    tech: ["React", "JavaScript", "Tailwind CSS", "Azure"],
+    github:
+      "https://github.com/ChristmasLover12345/herediaj-pokemon-api-rebuilt",
+    live: "https://herediaj-pokemon-api-rebuilt.vercel.app",
   },
-]
+];
 
 const ProjectsSectionComponent = () => {
   return (
@@ -97,7 +97,7 @@ const ProjectsSectionComponent = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSectionComponent
+export default ProjectsSectionComponent;
