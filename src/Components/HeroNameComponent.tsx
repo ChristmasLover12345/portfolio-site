@@ -1,20 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import React from "react";
-import GitHub_Logo from "../../public/images/GitHub_Logo.webp";
-import linkedin_logo from "../../public/images/linkedin_logo.png";
 import { AuroraBackground } from "./ui/AuroraBackgroundComponent";
 
 const HeroNameComponent = () => {
   return (
     <AuroraBackground>
-      <div className="w-full h-[600px] flex flex-col justify-center items-center rounded-2xl shadow-lg p-8 innerGlow">
+      <div className="w-full min-h-[600px] flex flex-col justify-center items-center rounded-2xl shadow-lg p-8 innerGlow">
         <motion.div
-          initial={{ opacity: 0, y: 30 }} //Starter point, where the animation start
-          animate={{ opacity: 1, y: 0 }} //edning point
-          transition={{ duration: 1 }} //Duration of the animation
+          initial={{ opacity: 0}} //Starter point, where the animation start
+          animate={{ opacity: 1}} //edning point
+          transition={{ duration: 0.6, delay: 0.3 }} //Duration of the animation
           className="  flex flex-col justify-center items-center
           text-white text-center
           w-full max-w-4xl"
