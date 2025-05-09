@@ -9,6 +9,8 @@ import {
   FaSlack,
   FaLanguage,
   FaMicrosoft,
+  FaTrello,
+  FaFigma,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -35,6 +37,8 @@ const skills = [
   { name: "SQL", icon: <GrDatabase /> },
   { name: "Azure", icon: <FaMicrosoft /> },
   { name: "GitHub", icon: <FaGithub /> },
+  { name: "Figma", icon: <FaFigma />},
+  { name: "Trello", icon: <FaTrello /> },
   { name: "Slack", icon: <FaSlack /> },
   { name: "English & Español", icon: <FaLanguage /> },
 ];
