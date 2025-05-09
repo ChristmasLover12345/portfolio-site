@@ -55,10 +55,8 @@ const AboutMeComponent = () => {
           I'm Juan Heredia, a bilingual (English & Spanish) Full Stack Developer
           passionate about building modern, scalable web applications. I love
           learning and pushing the limits of what's possible with code. My
-          favorite tools include React, C#, SQL, and Tailwind CSS — and I’m
-          always eager to contribute to impactful projects. (THIS IS FILLER,
-          REPLASE LAter ALSO ASK CHRSI TO ADD YOU TO THE FRONTEND REPO FOR
-          FULLSTACK)
+          favorite tools include Next.js, C#, SQL, and Tailwind CSS — and I’m
+          always eager to contribute to impactful projects. 
         </p>
       </motion.div>
 

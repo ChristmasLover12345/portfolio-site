@@ -49,7 +49,7 @@ body {
     opacity: 0.6;
   }
   100% {
-    transform: translateY(-120vh) scale(1.1);
+    transform: translateY(-180vh) scale(1.1);
     opacity: 0;
   }
 }
