@@ -4,6 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
+
+// THE GITUHUB IS THERE IN CASE I WANNA ADD IT LATER, BUT AS OF 5/9/2025 I DONT WANT TO 
 const projects = [
   {
     title: "Lets RIDE – Social Platform for Motorcyclists",
