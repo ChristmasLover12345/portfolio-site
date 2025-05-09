@@ -17,7 +17,7 @@ const HeroNameComponent = () => {
           w-full max-w-4xl"
         >
           <h3 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-md">
-            Welcome! my name is Juan Heredia.
+            Welcome! My name is Juan Heredia.
           </h3>
           <h1 className="text-2xl md:text-4xl text-sky-200 font-bold mt-2 drop-shadow-sm">
             I am a Full Stack Developer
