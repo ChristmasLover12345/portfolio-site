@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My name is Juan Heredia",
-  description: "Portfolio",
+  title: "Portfolio",
+  description: "Portfolio - Juan Heredia",
 };
 
 export default function RootLayout({
