@@ -56,10 +56,10 @@ const AboutMeComponent = () => {
       >
         <h1 className="text-3xl font-bold mb-4">About Me</h1>
         <p className="text-lg text-white/80 leading-relaxed">
-          I'm Juan Heredia, a bilingual (English & Spanish) Full Stack Developer
+          I&apos;m Juan Heredia, a bilingual (English & Spanish) Full Stack Developer
           passionate about building modern, scalable web applications. I love
-          learning and pushing the limits of what's possible with code. My
-          favorite tools include Next.js, C#, SQL, and Tailwind CSS — and I'm
+          learning and pushing the limits of what&apos;s possible with code. My
+          favorite tools include Next.js, C#, SQL, and Tailwind CSS — and I&apos;m
           always eager to contribute to impactful projects.
         </p>
       </motion.div>
